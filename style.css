@@ -1,0 +1,139 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.conteudo {
+    margin-top: 50px;
+    padding: 0;
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#celular {
+    width: 40%;
+    min-width: 350px;
+    max-width: 500px;
+    /* background-color: aqua; */
+}
+#celular img {
+    width: 70%;
+}
+
+@media (max-width: 1050px) {
+    #celular {
+        display: none;
+    }
+
+}
+
+
+#credenciais {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    min-width: 350px;
+    max-width: 500px;
+    flex-direction: column;
+}
+@media (max-width: 1050px) {
+    #credenciais {
+        width: 80%;
+    }
+}
+
+.margin-box {
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 30px;
+    border: 1px;
+    background-color: white;
+    border-color: darkgrey;
+    border-style: solid;
+}
+
+.top {
+}
+
+.botton {
+
+}
+
+.logo-instagram {
+    /* background-color: darkgreen; */
+}
+
+.logo-instagram img {
+
+    width: 200px;
+}
+
+.foto-perfil {
+    /* background-color: blueviolet; */
+}
+
+.foto-perfil img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.login-logout {
+    font-size: 18px;
+}
+.login-logout a {
+    text-decoration: none;
+    color: blue;
+}
+
+.getapp img{
+    width: 180px;
+}
+
+#getapptxt {
+    margin: 10px;
+    font-size: 20px;
+}
+
+#getappimg {
+
+}
+
+
+.no-account {
+    font-size: 20px;;
+}
+.no-account a {
+    text-decoration: none;
+    color: blue;
+}
+
+#all-footer {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: blue; */
+}
+.footer-links {
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+ul {
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+    margin: 5px;
+}
+
+.item {
+    text-align: center;
+}
