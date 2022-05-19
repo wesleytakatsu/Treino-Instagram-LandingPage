@@ -1,0 +1,27 @@
+#celular {
+    width: 380px;
+    height: 581px;
+}
+
+#celular a {
+    position: absolute;
+    margin-left: -12%;
+}
+
+#celular a:nth-of-type(1) {
+    animation-name: fader;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    z-index: 20;
+}
+#celular a:nth-of-type(2) {
+    z-index: 10;
+}
+#celular a:nth-of-type(n+3) {
+    display: none;
+}
+
+@keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+}
